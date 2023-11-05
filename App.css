@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: cyan;
+  }
+  
+  .navbar {
+    background-color: #222;
+  }
+  
+  #cardcontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  
+  .card {
+    width: calc(33.33% - 10px);
+    /* Adjust the width as needed */
+    height: 50%;
+    /* Adjust the height as needed */
+    border: 1px solid gray;
+    padding: 10px;
+  }
